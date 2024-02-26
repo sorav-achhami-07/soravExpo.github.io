@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactUs.com</title>
+    <link rel="shortcut icon" type="favicon-icon" href="sorav_expo.png" >
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap'); 
+            :root{
+                --main-bg-color: #6a1a9b;
+            }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #231a32;
+            color:rgb(208, 204, 204);
+        }
+        header{
+            height:8.5vh;
+            background-color: var(--main-bg-color);
+            color:white;
+            font-size: x-large;
+            letter-spacing: 1px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .home-icon{
+            background-color: rgba(255, 255, 255, 0.373);
+            height: 47px;
+            width: 4vw;
+            position: absolute;
+            margin: 1px auto auto 8px;
+            border-radius: 8px;
+            left: 2px;
+        }
+        span a img{
+            height: 6vh;
+            margin: 2px auto auto 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            height: 91vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .box{
+            background: rgba(201, 0, 255, 0.1);
+            border-radius: 16px;
+            backdrop-filter: blur(3.2px);
+            border: 1px solid rgba(201, 0, 255, 0.53);
+        }
+        #left_box{
+            height: 76vh;
+            width: 50vw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+        }
+                main div h2{
+                    font-size: 30px;
+                    font-family: Verdana, sans-serif;
+                }
+                #discription{
+                    width: 42vw;
+                    font-size: 17px;
+                    font-family: sans-serif;
+                }
+                #gmail{
+                    text-align: left;
+                    width: 42vw;
+                    font-size: 17px;
+                }
+                #bt_callus{
+                    width: 10vw;
+                    height: 6vh;
+                    background: #a403a4;
+                    color: #d0e0ff;
+                    border-radius: 10px;
+                    margin-top: 4vh;
+                    font-size: medium;
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    margin-top: 0px;
+                }
+                #bt_callus:hover{
+                    background: #6a1a9b;
+                    width: 11vw;
+                    height: 7vh;
+                    font-size: large;
+                }
+        #right_box{
+            height: 76vh;
+            width: 29vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            text-align: center;
+        }
+            .right_child{
+                margin: 18px auto;
+            }
+                    #profile_photo{
+                        width: 14vw;
+                        height: 30vh;
+                        border-radius: 6em;
+                        background: #ae8fd2 url('sonu.png') no-repeat;
+                        background-size: cover;
+                        overflow: hidden;
+                        border: 2px groove rgba(201, 0, 255, 1);
+                        backdrop-filter:blur;
+                    }
+                    #skill{
+                        margin-top: -21px;
+                    }
+                    #social_icon{
+                        width: 22vw;
+                        height: 10vh;
+                        display: flex;
+                        color: black;
+                        align-content: center;
+                        justify-content: center;
+                        
+                    }
+                    #name{
+                        font-size: x-large;
+                        font-size: x-large;
+                        margin-top: -23px;
+                        margin-bottom: 8px;
+                    }
+                    a{
+                        margin:0px auto;
+                    }
+                    .icon{
+                        background-color:rgb(216, 182, 223);
+                        border: 2px groove rgba(201, 0, 255, 1);
+                        height: 50px;
+                        margin: auto;
+                        width: 51px;
+                        border-radius: 6rem;
+                    }
+                        #yt{
+                            background-image: url('yticon.png');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                            #yt:hover{
+                                background-color: red;
+                            }
+                        #fb{
+                            background-image: url('facebook.png');
+                            background-size: cover;
+                        }
+                            #fb:hover{
+                                background-color: #00ffe7;
+                            }
+                        #insta{
+                            background-image: url('instagram.png');
+                            background-size: contain;
+                        }
+                            #insta:hover{
+                                background-color: #ff0053;
+                            }
+                        #twitter{
+                            background-image: url('twitter.png');
+                            background-size: cover;
+                        }
+                            #twitter:hover{
+                                background-color: #00ffe7;
+                            }
+
+    </style>
+</head>
+<body>
+    <header>
+            <span class="home-icon">
+                <a href="index.php">
+                    <img src="home.png" alt="Home-icon">
+                </a>
+            </span>
+            <center>Contact Us</center>
+    </header>
+    <main>
+        <div class="box" id="left_box"> 
+                <h2>Contact Us</h2>
+                <div id="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas harum doloribus, omnis unde eveniet ullam cumque vitae cupiditate ipsa corrupti, illo placeat quae autem blanditiis. Facilis commodi aspernatur recusandae, porro atque praesentium ipsum, modi eveniet nam nisi alias placeat illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, magnam totam. Eaque perferendis veniam a vero inventore, fugit rem dolor in quidem quas, fugiat error? Labore enim distinctio fugit nobis officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus doloremque libero vel ducimus, distinctio qui quaerat. Recusandae ea sunt consectetur ullam. </div>
+                <div id="gmail">Gmail: sorav_expo@gmail.com</div>
+                <div> <a href="tel:7220009200"><button id="bt_callus">Call Now</button></a></div>
+        </div>
+        <div class="box" id="right_box"> 
+                <div class="right_child" id="profile_photo">
+                </div>
+                <div class="right_child" id="bio"> 
+                    <div id="skill">Developer | Creator | Editor</div>
+                     <br><br> 
+                     <div id="name">SONU BAHADUR <small>(Sorav)</small></div>
+                     </div>
+                <div class="right_child" id="social_icon">
+                    <a href="https://www.youtube.com/@sonubahadur0760">
+                        <div class="icon" id="yt"></div>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100088761835524&mibextid=ZbWKwL">
+                        <div class="icon" id="fb"></div>
+                    </a>                    
+                    <a href="https://www.instagram.com/sorav_achhami_01?igsh=YTRweHo2bWRlNzNl">
+                        <div class="icon" id="insta"></div>
+                    </a>                    
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fsorav_01">
+                        <div class="icon" id="twitter"></div>
+                    </a>                    
+                </div>
+        </div>
+    </main>
+</body>
+</html>
